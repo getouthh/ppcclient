@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ppcclient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ppcclient.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\Sound\TURN_START.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\TIME_WARIMG.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\Sound\STOP_JETTON.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\GAME_START.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\END_WIN.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\END_LOST.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\END_DRAW.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\DISPATCH_CARD.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\CHEER3.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\CHEER2.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\CHEER1.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\BACK_GROUND.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\ADD_GOLD_EX.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sound\ADD_GOLD.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\WIN_FRAME.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_FILL.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TIME_FLAG.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SCORE_NUMBER.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\NO_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ME_SCORE_NUMBER.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ME_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\JETTOM_VIEW.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\HISTORY_RECORD.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END.BMP">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CHANGE_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_SCORE_MOVE_R.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_SCORE_MOVE_L.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_JETTON_5000000.BMP">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_JETTON_1000000.BMP">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_JETTON_100000.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_JETTON_10000.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_JETTON_1000.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_JETTON_100.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_CANCEL_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_CANCEL_APPLY.BMP">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\BANKER_UP.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\BANKER_DOWN.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_APPLY_BANKER.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bank_OUT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bank_IN.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_LOGO.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SCORE_5000000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SCORE_1000000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SCORE_100000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SCORE_10000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SCORE_1000.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SCORE_100.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GameClient.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\FIRE_EFFECT.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\CARDS_CARTOON.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordGameList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplyUserList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordGameList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gameclientdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplyUserList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ppcclient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
